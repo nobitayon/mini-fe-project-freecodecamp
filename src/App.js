@@ -1,11 +1,12 @@
 import React from 'react'
-import { RandomColor } from './pages'
+import { RandomColor, StarRating } from './pages'
 
 export default function App() {
   return (
     <div>
       {/* <Accordion/> */}
-      <RandomColor/>
+      {/* <RandomColor/> */}
+      <StarRating />
     </div>
   )
 }
