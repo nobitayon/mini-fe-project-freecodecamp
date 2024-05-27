@@ -1,5 +1,5 @@
 import React from 'react'
-import { ImageSlider, RandomColor, StarRating } from './pages'
+import { ImageSlider, LoadMoreButton, RandomColor, StarRating } from './pages'
 
 export default function App() {
   return (
@@ -7,7 +7,8 @@ export default function App() {
       {/* <Accordion/> */}
       {/* <RandomColor/> */}
       {/* <StarRating /> */}
-      <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'7'}/>
+      {/* <ImageSlider url={'https://picsum.photos/v2/list'} page={'1'} limit={'7'}/> */}
+      <LoadMoreButton/>
     </div>
   )
 }
